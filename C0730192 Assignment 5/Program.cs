@@ -15,6 +15,13 @@ namespace C0730192_Assignment_5
             Program2 orange=new Program2();
             Console.WriteLine(orange.Gematria("universe"));
         }
+        public int Gematria(string word)
+        {
+            int GematriaValue = 0;
+            for (int i = 0; i < word.Length; i++)
+            { GematriaValue += LetterValue(word[i].ToString()); }
+            return GematriaValue;
+        }
 
 
     }
