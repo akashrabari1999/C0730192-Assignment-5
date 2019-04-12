@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace C0730192_Assignment_5
 {
-    class Program
+    class Program2
     {
-        static void Main(string[] args)
+        
+        string[] Letters = new string[26] { "a", "b", "c", "d", "e", "P,"g","h","T, "JT,"K","T, "m", "n", "o", "p", "", "r", "s", "t", "u'", "V", "W"',"X","y"', "z" };
+        public static void Main()
         {
-
+            Program2 orange=new Program2();
+            Console.WriteLine(orange.Gematria("universe"));
         }
+
+
     }
 }
