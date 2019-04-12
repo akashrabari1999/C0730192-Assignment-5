@@ -22,7 +22,14 @@ namespace C0730192_Assignment_5
             { GematriaValue += LetterValue(word[i].ToString()); }
             return GematriaValue;
         }
-
+        public int LetterValue(string letter) { 
+        int x = 0;
+        while(Letters[x]!=letter)
+            {
+                if(Letters[x++]== letter)return x;
+            }
+            return-1;
+        }
 
     }
 }
