@@ -9,7 +9,7 @@ namespace C0730192_Assignment_5
     class Program2
     {
         
-        string[] Letters = new string[26] { "a", "b", "c", "d", "e", "P,"g","h","T, "JT,"K","T, "m", "n", "o", "p", "", "r", "s", "t", "u'", "V", "W"',"X","y"', "z" };
+        string[] Letters = new string[26] { "a", "b", "c", "d", "e", "f","g","h","i", "j","k","l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "V", "W","X","y","z" };
         public static void Main()
         {
             Program2 orange=new Program2();
